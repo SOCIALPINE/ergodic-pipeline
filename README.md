@@ -26,7 +26,7 @@ L0 (Information Scout) → A0 (Goal Analyst)
 ## Installation
 
 ```bash
-pip install ergodic-pipeline
+pip install git+https://github.com/SOCIALPINE/ergodic-pipeline.git
 ```
 
 ## Quick Start
