@@ -46,10 +46,10 @@ dev = [
 ergodic = "ergodic.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/ergodic-pipeline/ergodic"
-Documentation = "https://github.com/ergodic-pipeline/ergodic#readme"
-Repository = "https://github.com/ergodic-pipeline/ergodic"
-Issues = "https://github.com/ergodic-pipeline/ergodic/issues"
+Homepage = "https://github.com/SOCIALPINE/ergodic-pipeline"
+Documentation = "https://github.com/SOCIALPINE/ergodic-pipeline#readme"
+Repository = "https://github.com/SOCIALPINE/ergodic-pipeline"
+Issues = "https://github.com/SOCIALPINE/ergodic-pipeline/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]
