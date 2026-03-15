@@ -1,0 +1,24 @@
+# ERGODIC Pipeline — Example Configuration
+# ==========================================
+# Copy this file and edit the goal and API key.
+
+# Your research goal (required)
+goal: "Design a novel porous material for selective CO2 capture"
+
+# Google Gemini API key (or set GOOGLE_API_KEY env var)
+# google_api_key: "your-key-here"
+
+# LLM model
+model_name: gemini-2.5-flash-lite
+
+# Pipeline settings
+num_cycles: 2           # critique-revision cycles
+noise_seed: 42          # set for reproducibility (null = random)
+delay_seconds: 20       # delay between API calls (rate limiting)
+
+# Information search (L0)
+information_search: true
+max_results: 25
+
+# Output
+output_dir: ./ergodic_output
