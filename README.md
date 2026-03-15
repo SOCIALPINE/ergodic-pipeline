@@ -173,6 +173,15 @@ Tested across 5 domains with the same noise seed:
 - Google API key (Gemini)
 - Internet access (for L0 source queries)
 
+## References
+
+This project draws on ideas from:
+
+- Du et al., "Improving Factuality and Reasoning in Language Models through Multiagent Debate" (ICML 2024) — multi-agent debate improves reasoning over single LLM inference
+- Liang et al., "Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate" (EMNLP 2024) — structured agent debate encourages divergent thinking
+- Li et al., "A Survey on LLM Hallucination via a Creativity Perspective" (2024) — hallucinations as creative catalysts when paired with convergent evaluation
+- Kumar et al., "Human Creativity in the Age of LLMs" (CHI 2025) — LLM usage leads to idea homogenization, motivating external noise injection for diversity
+
 ## License
 
 MIT
