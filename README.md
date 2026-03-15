@@ -34,7 +34,11 @@ pip install git+https://github.com/SOCIALPINE/ergodic-pipeline.git
 ### 1. Set your API key
 
 ```bash
+# Mac/Linux
 export GOOGLE_API_KEY="your-google-api-key"
+
+# Windows
+set GOOGLE_API_KEY=your-google-api-key
 ```
 
 ### 2. Run
